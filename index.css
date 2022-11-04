@@ -1,0 +1,47 @@
+body{
+    overflow: hidden;
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Main{
+    position: fixed;
+    width: fit-content;
+    top: 50vh; left: 50vw; transform: translate(-50%, -50%);
+    overflow: hidden;
+  
+}
+#display{
+    border-radius: 10px;
+    text-align: right;
+    height: 60px;
+    box-sizing: border-box;
+    margin-bottom:  5px;;
+    width: 100%;
+    max-width: 292px;
+    overflow: hidden;
+    color: black;
+    font-size: 58px;
+    background-color: white;
+}
+
+button{
+    margin: 5px 0px;
+    height: 70px;
+    width: 70px;
+    border-radius: 7px;
+    font-size: medium;
+    background-color: transparent;
+    color: black;
+    box-shadow: 2px solid black;
+}
+
+
+button:focus {
+  box-shadow: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
